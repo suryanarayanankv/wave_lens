@@ -1,7 +1,7 @@
 import time
 from elevenlabs.client import ElevenLabs
 
-ELEVENLABS_API_KEY = ""
+ELEVENLABS_API_KEY = "sk_63fe9d005665d174a8da0e28e56cd56214b1ebd6e370169e"
 
 def transcribe(audio_path: str) -> str:
     """
