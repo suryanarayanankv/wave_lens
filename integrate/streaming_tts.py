@@ -9,7 +9,7 @@ import time
 
 # Load API key from .env or fallback
 load_dotenv()
-API_KEY = os.getenv("DEEPGRAM_API_KEY") or "c91848dd358152b1231646a2c9663dfdb02cf8b6"
+API_KEY = os.getenv("DEEPGRAM_API_KEY") or ""
 
 # Deepgram TTS settings
 TTS_MODEL = "aura-2-thalia-en"
